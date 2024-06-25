@@ -25,7 +25,7 @@ You can use the Shiny application for interactome analysis by following these st
 3. Follow the instructions in the application to run the interactome analysis.
 
 #### Detailed Step-by-Step Guide
-For a more detailed step-by-step guide on using the [Shiny application](https://sensoryomics.shinyapps.io/Interactome/), refer to the attached "Interactome Analysis Detailed Step-by-Step Guide.pdf" file.
+For a more detailed step-by-step guide on using the [Shiny application](https://sensoryomics.shinyapps.io/Interactome/), refer to the attached "Interactome Application - User Guide.pdf" file.
 
 ## Notes
 - Ensure all necessary data files are in the correct format as required by the R code and the Shiny application.
