@@ -34,5 +34,3 @@ For a more detailed step-by-step guide on using the [Shiny application](https://
 ---
 Feel free to fork this repository and make any modifications as needed for your analysis. Contributions are welcome!
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
