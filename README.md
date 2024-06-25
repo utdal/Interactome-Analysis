@@ -1,5 +1,3 @@
-# Interactome-Analysis
-Interactome analysis pipeline
 # Interactome Analysis with Ligand and Receptor Data
 
 This repository provides the necessary files and instructions to perform interactome analysis using R code and a Shiny application.
