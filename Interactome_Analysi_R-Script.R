@@ -61,7 +61,8 @@ if(STEP == "N" | STEP == "n"){
   }
   
   interactome1 <- make_int( lig, lig_col_total, rec, rec_col_total)
-  
+
+  ###### PT 5 EXPORT #######
   write.xlsx( interactome1, file = paste0( lig_name, "_to_", rec_name, "_ALLdata.xlsx"))
   #This excel file will be loaded for PT6-10, which are done for each unique interactome analysis derived from this data.
   
