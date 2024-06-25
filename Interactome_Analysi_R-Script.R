@@ -62,49 +62,6 @@ if(STEP == "N" | STEP == "n"){
   
   interactome1 <- make_int( lig, lig_col_total, rec, rec_col_total)
   
-  
-  
-  ###### PT 5 EXPORT & MORE COMPUTATION ###########
-  #If you need to add more columns (ex. avg. of some columns, percentiles, etc.), you can do that here in this space:
-  #(Please do any calculations you will need to filter or rank certain genes/interactions, and make sure the variables you will 
-  #use to filter/rank are in a column(s) before starting PT. 6 )
-  
-  #Calculation1: search for key words or terms
-  
-  keyword_col <- function(keyword, int_table){
-    #keyword <- 'cd14'
-    print(paste0("Searching for: '",keyword,"'"))
-    int_table$NEW_WORD <- TRUE
-    colnames(int_table)[length(int_table)] <- keyword
-    for(interaction in 1:nrow(int_table)){
-      int_table[interaction,length(int_table)] <-
-        ifelse( any(str_detect(int_table[interaction,], paste0("(?i)",keyword))) == TRUE, TRUE, FALSE)
-    }
-    return(int_table)
-  }
-  
-  all_keywords <- function(kwords, int_table){
-    for(kw in 1:nrow(kwords)){
-      int_table <- keyword_col(kwords[kw,1], int_table)
-    }
-    return(int_table)
-  }
-  
-  searching <- readline("::Would you like to search for key terms? (Y for yes, N for No):: \n")
-  print("Please select the excel file with keywords (one column w/ each term on a separate row).") 
-  
-  if(STEP == "Y" | STEP == "y"){
-    interactome1$lig_class_description <- "."
-    interactome1$rec_class_description <- "."
-    key_terms <- read_excel(file.choose(), col_names = FALSE)
-    interactome1 <- all_keywords(key_terms, interactome1)
-  }
-  
-  
-  
-  #Calculation2: tbd
-  #Calculation3: tbd
-  
   write.xlsx( interactome1, file = paste0( lig_name, "_to_", rec_name, "_ALLdata.xlsx"))
   #This excel file will be loaded for PT6-10, which are done for each unique interactome analysis derived from this data.
   
