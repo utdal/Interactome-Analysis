@@ -8,10 +8,10 @@ This repository provides the necessary files and instructions to perform interac
 
 To run the R code using the ligand and receptor data:
 1. Ensure you have the following files:
-    - Interactome list
-    - Ligand data
-    - Receptor data
-    - R code
+    - Interactome list (You can use the interactome_list.xlsx)
+    - Ligand data (Prepare your data as in the Sample_Ligand_File)
+    - Receptor data (Prepare your data as in the Sample_Receptor_File)
+    - R code (Use the Interactome_Analysi_R-Script.R file)
     
 2. Open your R environment (RStudio or any other R IDE).
 3. Load the necessary files into your environment.
