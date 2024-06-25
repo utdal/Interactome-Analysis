@@ -24,7 +24,7 @@ You can use the Shiny application for interactome analysis by following these st
 2. You have the option to either upload your ligand and receptor data or use the existing data provided by the application.
 3. Follow the instructions in the application to run the interactome analysis.
 
-## Detailed Step-by-Step Guide
+#### Detailed Step-by-Step Guide
 For a more detailed step-by-step guide on using the Shiny application, refer to the attached "Interactome Analysis Detailed Step-by-Step Guide".
 
 ## Notes
