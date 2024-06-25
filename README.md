@@ -17,7 +17,7 @@ To run the R code using the ligand and receptor data:
 
 ### Using the Shiny Application
 
-You can use the Shiny application for interactome analysis by following these steps:
+This web application has an interactive interface for easy utilization of the interactome tool. You can use the Shiny application for interactome analysis by following these steps:
 1. Navigate to the [Shiny application](https://sensoryomics.shinyapps.io/Interactome/).
 2. You have the option to either upload your ligand and receptor data or use the existing data provided by the application.
 3. Follow the instructions in the application to run the interactome analysis.
