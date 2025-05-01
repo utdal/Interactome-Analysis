@@ -27,7 +27,8 @@ For a more detailed step-by-step guide on using the [Shiny application](https://
 
 ## Notes
 - Ensure all necessary data files are in the correct format as required by the R code and the Shiny application.
-- For any issues or questions, please open an issue in this repository.
+
+Contant: For questions or issues, please open an issue in this repository or reach out [Mazhar, Khadijah](Khadijah.Mazhar@UTDallas.edu) or [Mydugolam, Hemanth](Hemanth.Mydugolam@UTDallas.edu)
 
 ---
 Feel free to fork this repository and make any modifications as needed for your analysis. Contributions are welcome!
